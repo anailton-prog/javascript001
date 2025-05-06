@@ -7,4 +7,6 @@ vamos estudar
 - estrutura de decisão
 - estrutura de repetição
 - vetor
-- interação com DOM 
+- interação com DOM
+
+anailton
