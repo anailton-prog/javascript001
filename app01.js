@@ -120,7 +120,29 @@ for(let i=1; i<=10; i=i+1){
 for(let i=1; i<=50; i=i+1){
     console.log(i)
 }
-// // Arrays
+
+// // Arrays --> vetor
+let alunos = ["jõao", "paulo", "renata", "cris", "x"]
+console.log(alunos)
+console.log(alunos[3])
+alunos[4] = "kleber"
+console.log(alunos)
+alunos.push("karem")
+console.log(alunos)
+
+let frutas = []
+console.log(frutas)
+frutas.push("🍓")
+frutas.push("🍍")
+frutas.push("🥑")
+frutas.push("🥭")
+frutas.push("🍇")
+frutas.push("🍈")
+frutas.push("🍉")
+frutas.push("🍌")
+frutas.push("🍎")
+frutas.push("🍏")
+console.log(frutas)
 
 // // Funções básicas
 // // Escopo
