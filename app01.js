@@ -55,16 +55,16 @@ console.log(!false)
 
 console.log(10 > 2 && 35 < 100 && n1 > n2 && 100 < 90) // E - todas as verificações precisam ser verdadeiras para o resultado ser verdadeiro
 
-console.log(10<2 || 100==150 || 57==57) // ou - apenas uma verificação, precisa ser verdadeira para o resultado ser verdadeiro, o resultado só será falso quando TODAS as verificações forem falsas
+console.log(10 < 2 || 100 == 150 || 57 == 57) // ou - apenas uma verificação, precisa ser verdadeira para o resultado ser verdadeiro, o resultado só será falso quando TODAS as verificações forem falsas
 
 //desafio 
-preço = 100 
+preço = 100
 preçoacrescimo = 0
 preçodesconto = 0
 
 //faça um código que acrescente 17% ao preço o imprima 
 
-preçoacrescimo = preço + (preço * 0,17)
+preçoacrescimo = preço + (preço * 0, 17)
 console.log("preço com acrescimo: " + preçoacrescimo)
 
 //faça um código que desconte 7% do preço e imprima 
@@ -74,16 +74,16 @@ console.log("preço com desconto: " + preçodesconto)
 
 // // Estrutura
 // //     Estrutura de controle/decisão
-if(10>5){
+if (10 > 5) {
     console.log("10 é maior que 5")
-}else{
+} else {
     console.log("10 é menor que 100")
 }
 
-let idadedocandidato = 17 
-if(idadedocandidato >= 18){
+let idadedocandidato = 17
+if (idadedocandidato >= 18) {
     console.log("pode dirigir")
-}else{
+} else {
     console.log("volte mais tarde")
 }
 
@@ -91,13 +91,26 @@ if(idadedocandidato >= 18){
 //faça um códigoque verifique se o salario do funcionario é maior que 5000, se for mostre a mensagem "salario ok" se não mostre a mensagem "precisa de aumento"
 
 let salariofunc = 3000
-if(salariofunc > 5000){
+if (salariofunc > 5000) {
     console.log("salario ok")
-}else{
-    console.log("precisa de aumento de" + (5000 - salariofunc) + "reais")
+} else {
+    console.log("precisa de aumento de " + (5000 - salariofunc) + " reais ")
 }
 
 // //     Laços de repetição
+// quero mostrar 10 vezes a mensagem "Senac americana"
+
+let controle = 1 
+while(controle <= 0){
+    console.log("senac americana")
+    controle = controle + 1
+}
+
+ controle = 50
+while(contorle <= 100){
+    console.log(controle)
+    controle = controle + 1
+}
 
 // // Arrays
 
