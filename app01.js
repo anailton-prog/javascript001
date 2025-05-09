@@ -56,6 +56,22 @@ console.log(!false)
 console.log(10 > 2 && 35 < 100 && n1 > n2 && 100 < 90) // E - todas as verificações precisam ser verdadeiras para o resultado ser verdadeiro
 
 console.log(10<2 || 100==150 || 57==57) // ou - apenas uma verificação, precisa ser verdadeira para o resultado ser verdadeiro, o resultado só será falso quando TODAS as verificações forem falsas
+
+//desafio 
+preço = 100 
+preçoacrescimo = 0
+preçodesconto = 0
+
+//faça um código que acrescente 17% ao preço o imprima 
+
+preçoacrescimo = preço + (preço * 0,17)
+console.log("preço com acrescimo: " + preçoacrescimo)
+
+//faça um código que desconte 7% do preço e imprima 
+
+preçodesconto = preço - (preço * 0.07)
+console.log("preço com desconto: " + preçodesconto)
+
 // // Estrutura
 // //     Estrutura de controle/decisão
 // //     Laços de repetição
