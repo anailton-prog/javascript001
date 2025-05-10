@@ -156,6 +156,7 @@ soma(7 , 3)
 // // Escopo
 
 
+
 // // Alterar conteúdo e atributos *
 // // incluir js em página html *
 // // Eventos *
